@@ -1,0 +1,31 @@
+{
+  "name": "com.sendbird.calls",
+  "displayName": "SendbirdCalls",
+  "version": "1.0.0-beta",
+  "documentationUrl": "https://sendbird.com/docs/calls/v1/unity/quickstart/make-first-call",
+  "changelogUrl": "https://github.com/sendbird/sendbird-calls-unity/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sendbird/sendbird-calls-unity/blob/master/LICENSE.md",
+  "description": "Sendbird Calls enable real-time calls between users within a Sendbird application. SDKs are provided for iOS, Android, Windows, and macOS. Using any one of these, developers can quickly integrate voice call functions into their own client apps, allowing users to web-based real-time voice group call on the Sendbird platform.",
+  "dependencies": {
+    "com.unity.webrtc": "2.4.0-exp.7",
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  },
+  "keywords": [
+    "webrtc",
+    "sendbird",
+    "calls"
+  ],
+  "samples": [
+    {
+      "displayName": "VoiceGroupCalls",
+      "description": "You will find the steps you need to take before implementing the Calls SDK into a project, and a sample app that contains the code for implementing voice group calls.",
+      "path": "Samples~/VoiceGroupCalls"
+    }
+  ],
+  "author": {
+    "name": "Sendbird",
+    "email": "support@sendbird.com",
+    "url": "https://sendbird.com/"
+  },
+  "hideInEditor": false
+}

@@ -1,0 +1,3 @@
+﻿<linker>
+    <assembly fullname="Sendbird.Calls" preserve="all"/>
+</linker>
