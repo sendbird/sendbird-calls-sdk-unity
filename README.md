@@ -1,4 +1,4 @@
-# Sendbird Unity calls
+# Sendbird Calls Unity SDK
 
 <span>
 <img src="https://img.shields.io/badge/Unity-2019.4+-black?logo=unity" alt="Unity 2019.4+" >
@@ -27,7 +27,7 @@ Sendbird Calls SDK for Unity provides a framework for creating and joining voice
 
 ### More about Sendbird Calls SDK for Unity
 
-Find out more about Sendbird Calls for Unity on [Calls SDK for Unity doc](https://sendbird.com/docs/calls/v1/unity/getting-started/about-calls-sdk) or [API References](https://sendbird.com/docs/calls/v1/unity/ref/index.html).
+Find out more about Sendbird Calls for Unity on [Calls SDK for Unity doc](SendbirdCallsUnityDocumentation.pdf) or [API References](https://sendbird.com/docs/calls/v1/unity/ref/index.html).
 
 
 ## Before getting started
