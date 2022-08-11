@@ -84,15 +84,30 @@ namespace Sendbird.Calls
         /// The server failed to process the request due to an internal reason.
         /// </summary>
         ServerInternalError /*-----------------------*/ = 1400999,
+        /// <summary>
+        /// The request cannot be processed because the number of participants has exceeded the limit of a room.
+        /// </summary>
         ParticipantsLimitExceededInRoom /*-----------*/ = 1400120,
+        /// <summary>
+        /// The request cannot be processed because the participant ID is invalid.
+        /// </summary>
         InvalidParticipantId /*----------------------*/ = 1400121,
+        /// <summary>
+        /// The request cannot be processed because the client ID already exists in the room.
+        /// </summary>
         ClientIdAlreadyExists /*---------------------*/ = 1400122,
+        /// <summary>
+        /// The request to attach to endpoint to send media streaming is invalid.
+        /// </summary>
         InvalidRequest /*----------------------------*/ = 1400123,
+        /// <summary>
+        /// The request cannot be processed because the endpoint to send media streaming already exists.
+        /// </summary>
         EndpointToSendStreamAlreadyExists /*---------*/ = 1400124,
         /// <summary>
         /// The request cannot be processed because the room ID doesn't exist or was deleted.
         /// </summary>
-        RoomDeleted /*-------------------------------*/ = 1400126,
+        InvalidRoom /*-------------------------------*/ = 1400126,
         /// <summary>
         /// The server encounters an unexpected exception while trying to process the request.
         /// </summary>

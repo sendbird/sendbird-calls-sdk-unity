@@ -8,7 +8,7 @@ namespace Sendbird.Calls
 {
     internal class SendbirdCallSdk : SingletonAbstract<SendbirdCallSdk>
     {
-        internal const string VERSION = "1.0.0-beta";
+        internal const string VERSION = "1.0.0-beta.1";
 
         private SendbirdCallSdk() { }
         internal string AppId { get; private set; } = null;

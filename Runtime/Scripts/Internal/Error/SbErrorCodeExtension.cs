@@ -27,12 +27,12 @@ namespace Sendbird.Calls
                 case SbErrorCode.NotAllowed:                        return "The request is not allowed to perform this action.";
                 case SbErrorCode.NotAuthorized:                     return "The request is not authorized to perform this operation.";
                 case SbErrorCode.ServerInternalError:               return "The server failed to process the request due to an internal reason.";
-                case SbErrorCode.ParticipantsLimitExceededInRoom:   return "";
-                case SbErrorCode.InvalidParticipantId:              return "";
-                case SbErrorCode.ClientIdAlreadyExists:             return "";
-                case SbErrorCode.InvalidRequest:                    return "";
-                case SbErrorCode.EndpointToSendStreamAlreadyExists: return "";
-                case SbErrorCode.RoomDeleted:                       return "The request cannot be processed because the room ID doesn't exist or was deleted.";
+                case SbErrorCode.ParticipantsLimitExceededInRoom:   return "The request cannot be processed because the number of participants has exceeded the limit of a room.";
+                case SbErrorCode.InvalidParticipantId:              return "The request cannot be processed because the participant ID is invalid.";
+                case SbErrorCode.ClientIdAlreadyExists:             return "The request cannot be processed because the client ID already exists in the room.";
+                case SbErrorCode.InvalidRequest:                    return "The request to attach to endpoint to send media streaming is invalid.";
+                case SbErrorCode.EndpointToSendStreamAlreadyExists: return "The request cannot be processed because the endpoint to send media streaming already exists.";
+                case SbErrorCode.InvalidRoom:                       return "The request cannot be processed because the room ID doesn't exist or was deleted.";
                 case SbErrorCode.UnknownError:                      return "The server encounters an unexpected exception while trying to process the request.";
                 default:                                            return string.Empty;
             }
