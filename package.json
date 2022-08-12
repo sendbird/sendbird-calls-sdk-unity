@@ -1,7 +1,7 @@
 {
   "name": "com.sendbird.calls",
   "displayName": "SendbirdCalls",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "documentationUrl": "https://sendbird.com/docs/calls/v1/unity/quickstart/make-first-call",
   "changelogUrl": "https://github.com/sendbird/sendbird-calls-unity/blob/master/CHANGELOG.md",
   "licensesUrl": "https://github.com/sendbird/sendbird-calls-unity/blob/master/LICENSE.md",

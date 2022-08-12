@@ -33,15 +33,15 @@ namespace Sendbird.Calls
         /// </summary>
         InvalidParameterValue /*---------------------*/ = 1800300,
         /// <summary>
-        /// 1800303, The user is not authenticated.
+        /// The user is not authenticated.
         /// </summary>
         NotAuthenticated /*--------------------------*/ = 1800303,
 
         // Room
         /// <summary>
-        /// The client has already entered the room.
+        /// The participant is trying to enter the same room they're already in.
         /// </summary>
-        ClientAlreadyEntered /*----------------------*/ = 1800700,
+        ParticipantAlreadyInRoom /*----------------------*/ = 1800700,
         /// <summary>
         /// The participant is trying to enter the room while the previous request is still in progress.
         /// </summary>

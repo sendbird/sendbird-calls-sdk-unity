@@ -69,7 +69,7 @@ namespace Sendbird.Calls
 
             if (IsEntered() || RoomManager.Instance.HasEnteringOrEnteredRoom())
             {
-                SbError error = new SbError(SbErrorCode.ClientAlreadyEntered);
+                SbError error = new SbError(SbErrorCode.ParticipantAlreadyInRoom);
                 Logger.LogWarning(Logger.CategoryType.Room, $"SbRoom::Enter {error.ErrorMessage}");
                 SendbirdCallGameObject.Instance.CallOnNextFrame(() => completionHandler?.Invoke(error));
                 return;

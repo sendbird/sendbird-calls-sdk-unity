@@ -10,7 +10,7 @@ namespace Sendbird.Calls
         {
             switch (inErrorCode)
             {
-                case SbErrorCode.ClientAlreadyEntered:              return "The client has already entered the room.";
+                case SbErrorCode.ParticipantAlreadyInRoom:          return "The participant is trying to enter the same room they're already in.";
                 case SbErrorCode.EnteringRoomStillInProgress:       return "The participant is trying to enter the room while the previous request is still in progress.";
                 case SbErrorCode.LocalParticipantLostConnection:    return "The local participant exited the room due to lost connection.";
                 case SbErrorCode.RequestFailed:                     return "The HTTP request failed.";
