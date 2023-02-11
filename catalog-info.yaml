@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sendbird-calls-sdk-unity
+  description: Calls SDK for Unity
+  annotations:
+    github.com/project-slug: sendbird/sendbird-calls-sdk-unity
+spec:
+  type: library
+  lifecycle: production
+  owner: dep-client-platform
+  system: sendbird-calls
